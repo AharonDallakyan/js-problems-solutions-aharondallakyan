@@ -1,0 +1,45 @@
+const {sum,mul,div,sub} = require('./array-methods');
+describe('Type Coercion for primitives',()=>{
+    test('num1',()=>{
+        expect(sum('',1,0)).toBe('10')
+    })
+    test('num2',()=>{
+        expect(sub('',1,0)).toBe(-1)
+    })
+    test('num3',()=>{
+        expect(sum(true,false)).toBe(NaN)
+    })
+    test('num4',()=>{
+        expect(div(6,"3")).toBe(2)
+    })
+    test('num5',()=>{
+        expect(mul("2","3")).toBe(6)
+    })
+    test('num6',()=>{
+        expect(sum(4,5,"px")).toBe("9px")
+    })
+    test('num7',()=>{
+        expect(sum('$',4,5)).toBe("$45")
+    })
+    test('num8',()=>{
+        expect(sub('4',2)).toBe(NaN)
+    })
+    test('num9',()=>{
+        expect(sub("4px",2)).toBe(NaN)
+    })
+    test('num10',()=>{
+        expect(div(7,0)).toBe(Infinity)
+    })
+    test('num11',()=>{
+        expect(sum("-9",5)).toBe("-95undefined")
+    })
+    test('num12',()=>{
+        expect(sub("-9",5)).toBe(NaN)
+    })
+    test('num13',()=>{
+        expect(sum(null,1)).toBe(NaN)
+    })
+    test('num14',()=>{
+        expect(sum(undefined,1)).toBe(NaN)
+    })
+})

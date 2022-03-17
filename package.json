@@ -1,0 +1,23 @@
+{
+  "name": "js-problems-solutions-aharon-dallakyan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AharonDallakyan/js-problems-solutions-aharon-dallakyan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AharonDallakyan/js-problems-solutions-aharon-dallakyan/issues"
+  },
+  "homepage": "https://github.com/AharonDallakyan/js-problems-solutions-aharon-dallakyan#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
