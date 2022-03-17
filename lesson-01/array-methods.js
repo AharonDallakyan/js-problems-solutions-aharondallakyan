@@ -5,7 +5,7 @@ function  sum(a,b,c){
 function mul(a,b){
   return a * b
 }
-function div(a,b){
+function div(a ,b){
   return a/b
 }
 function sub(a,b,c){
