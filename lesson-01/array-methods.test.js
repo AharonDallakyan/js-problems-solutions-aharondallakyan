@@ -5,7 +5,8 @@ let fremwork = [
     {id:2, title: 'Angular'},
     {id:3, title: 'Vue'}
 ];
-let arr = ["Godfather","GWhiplash","Social Network"];
+let arr = ["Godfather","Whiplash","Social Network"];
+let arr1 = ["Godfather","GWhiplash","Social Network"];
 describe('array-methods',()=>{
     test('task01',()=>{
         expect(filterRange(arrNum,9,23));
@@ -21,7 +22,7 @@ describe('array-methods',()=>{
         expect(findById(fremwork,6)).toBe('no data');
         expect(findById(fremwork,3)).toEqual( { id: 3, title: 'Vue' });
     })
-    test('geneerate',()=>{
+    test('generate',()=>{
         expect(generate(arr)).toEqual([
             { title: 'Godfather', idx: 0 },
             { title: 'Whiplash', idx: 1 },
@@ -29,7 +30,7 @@ describe('array-methods',()=>{
         ])
     })
     test('removeByLetter',()=>{
-        expect(removeByLetter(arr,'G')).toEqual(['Social Network']);
+        expect(removeByLetter(arr1,'G')).toEqual(['Social Network']);
     })
 
 });
