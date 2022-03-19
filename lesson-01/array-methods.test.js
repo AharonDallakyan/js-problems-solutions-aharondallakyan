@@ -1,4 +1,4 @@
-const {sum,mul,div,sub} = require('./array-methods');
+const {sum,mul,div,sub,copyTheValue,calcMod,swap1,swap2} = require('./array-methods');
 describe('Type Coercion for primitives',()=>{
     test('num1',()=>{
         expect(sum('',1,0)).toBe('10')
@@ -41,5 +41,17 @@ describe('Type Coercion for primitives',()=>{
     })
     test('num14',()=>{
         expect(sum(undefined,1)).toBe(NaN)
+    })
+    test('copyTheValue',()=>{
+        expect(copyTheValue('john')).toBe('john')
+    })
+    test('calcMod', ()=>{
+        expect(calcMod(10)).toBe(0)
+    })
+    test('swap1',()=>{
+        expect(swap1(10,3)).toBe('3|10')
+    })
+    test('swap2',()=>{
+        expect(swap2(10,3)).toBe('3|10')
     })
 })
