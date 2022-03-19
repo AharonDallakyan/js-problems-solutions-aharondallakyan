@@ -1,4 +1,4 @@
-const {sum,mul,div,sub,copyTheValue,calcMod,swap1,swap2} = require('./array-methods');
+const {sum,mul,div,sub,copyTheValue,calcMod,swap1,swap2} = require('./primitive_types');
 describe('Type Coercion for primitives',()=>{
     test('num1',()=>{
         expect(sum('',1,0)).toBe('10')
