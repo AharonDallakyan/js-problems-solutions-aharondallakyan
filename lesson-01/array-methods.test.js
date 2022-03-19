@@ -1,45 +1,35 @@
-const {sum,mul,div,sub} = require('./array-methods');
-describe('Type Coercion for primitives',()=>{
-    test('num1',()=>{
-        expect(sum('',1,0)).toBe('10')
+const{filterRange,concatMany,findById,generate,removeByLetter}=require('./array-methods');
+let arrNum = [1,10,20,30];
+let fremwork = [
+    {id:1, title:'React'},
+    {id:2, title: 'Angular'},
+    {id:3, title: 'Vue'}
+];
+let arr = ["Godfather","GWhiplash","Social Network"];
+describe('array-methods',()=>{
+    test('task01',()=>{
+        expect(filterRange(arrNum,9,23));
+        expect(filterRange([100,200,300],9,23));
+        expect(filterRange([-10,-8,0,10,20],-100,15))
     })
-    test('num2',()=>{
-        expect(sub('',1,0)).toBe(-1)
+    test('concat',()=>{
+        expect(concatMany([1,2],[2,3],[3,4])).toEqual([ 1, 2, 2, 3, 3, 4 ]);
+        expect(concatMany(['1','hello'],[[1,2],2])).toEqual([ '1', 'hello', [ 1, 2 ], 2 ]);
+        expect(concatMany([],[],[])).toEqual([])
+    });
+    test('findById',()=>{
+        expect(findById(fremwork,6)).toBe('no data');
+        expect(findById(fremwork,3)).toEqual( { id: 3, title: 'Vue' });
     })
-    test('num3',()=>{
-        expect(sum(true,false)).toBe(NaN)
+    test('geneerate',()=>{
+        expect(generate(arr)).toEqual([
+            { title: 'Godfather', idx: 0 },
+            { title: 'Whiplash', idx: 1 },
+            { title: 'Social Network', idx: 2 }
+        ])
     })
-    test('num4',()=>{
-        expect(div(6,"3")).toBe(2)
+    test('removeByLetter',()=>{
+        expect(removeByLetter(arr,'G')).toEqual(['Social Network']);
     })
-    test('num5',()=>{
-        expect(mul("2","3")).toBe(6)
-    })
-    test('num6',()=>{
-        expect(sum(4,5,"px")).toBe("9px")
-    })
-    test('num7',()=>{
-        expect(sum('$',4,5)).toBe("$45")
-    })
-    test('num8',()=>{
-        expect(sub('4',2)).toBe(NaN)
-    })
-    test('num9',()=>{
-        expect(sub("4px",2)).toBe(NaN)
-    })
-    test('num10',()=>{
-        expect(div(7,0)).toBe(Infinity)
-    })
-    test('num11',()=>{
-        expect(sum("-9",5)).toBe("-95undefined")
-    })
-    test('num12',()=>{
-        expect(sub("-9",5)).toBe(NaN)
-    })
-    test('num13',()=>{
-        expect(sum(null,1)).toBe(NaN)
-    })
-    test('num14',()=>{
-        expect(sum(undefined,1)).toBe(NaN)
-    })
-})
+
+});
