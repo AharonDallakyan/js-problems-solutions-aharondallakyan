@@ -124,12 +124,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.testing jest" />
-      <item itemvalue="Jest.Type Coercion for primitives.copyThealue" />
-      <item itemvalue="Jest.Type Coercion for primitives.copyTheValue" />
       <item itemvalue="Jest.Type Coercion for primitives.calcMod" />
+      <item itemvalue="Jest.Type Coercion for primitives.copyTheValue" />
+      <item itemvalue="Jest.Type Coercion for primitives.copyThealue" />
       <item itemvalue="Jest.Type Coercion for primitives.swap1" />
       <item itemvalue="Jest.Type Coercion for primitives.swap2" />
+      <item itemvalue="Jest.testing jest" />
     </list>
     <recent_temporary>
       <list>
