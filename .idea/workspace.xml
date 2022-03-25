@@ -132,12 +132,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.testing jest" />
       <item itemvalue="Jest.Type Coercion for primitives.num13" />
       <item itemvalue="Jest.Type Coercion for primitives.num14" />
       <item itemvalue="Jest.Type Coercion for primitives.num3" />
       <item itemvalue="Jest.insertion sort" />
       <item itemvalue="Jest.insertion sort.insertion sort" />
+      <item itemvalue="Jest.testing jest" />
     </list>
     <recent_temporary>
       <list>
