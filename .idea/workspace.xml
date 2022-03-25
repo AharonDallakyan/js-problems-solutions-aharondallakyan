@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a29d004-c230-4282-af7c-b7cd65140972" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-04/create-spiral.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson-04/create-spiral.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -44,48 +51,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.Type Coercion for primitives">
-    <configuration name="Type Coercion for primitives" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/lesson-01/array-methods.test.js" />
-      <test-names>
-        <test-name value="Type Coercion for primitives" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Type Coercion for primitives.num11" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/lesson-01/array-methods.test.js" />
-      <test-names>
-        <test-name value="Type Coercion for primitives" />
-        <test-name value="num11" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Type Coercion for primitives.num12" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/lesson-01/array-methods.test.js" />
-      <test-names>
-        <test-name value="Type Coercion for primitives" />
-        <test-name value="num12" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.insertion sort">
     <configuration name="Type Coercion for primitives.num13" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -114,6 +80,47 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Type Coercion for primitives.num3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/lesson-03/primitive_types.test.js" />
+      <test-names>
+        <test-name value="Type Coercion for primitives" />
+        <test-name value="num3" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="insertion sort" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/lesson-04/create-spiral.test.js" />
+      <test-names>
+        <test-name value="insertion sort" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="insertion sort.insertion sort" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/lesson-04/create-spiral.test.js" />
+      <test-names>
+        <test-name value="insertion sort" />
+        <test-name value="insertion sort" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="testing jest" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -125,20 +132,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.Type Coercion for primitives" />
-      <item itemvalue="Jest.Type Coercion for primitives.num11" />
-      <item itemvalue="Jest.Type Coercion for primitives.num12" />
+      <item itemvalue="Jest.testing jest" />
       <item itemvalue="Jest.Type Coercion for primitives.num13" />
       <item itemvalue="Jest.Type Coercion for primitives.num14" />
-      <item itemvalue="Jest.testing jest" />
+      <item itemvalue="Jest.Type Coercion for primitives.num3" />
+      <item itemvalue="Jest.insertion sort" />
+      <item itemvalue="Jest.insertion sort.insertion sort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Type Coercion for primitives" />
+        <item itemvalue="Jest.insertion sort" />
+        <item itemvalue="Jest.insertion sort.insertion sort" />
+        <item itemvalue="Jest.Type Coercion for primitives.num3" />
         <item itemvalue="Jest.Type Coercion for primitives.num14" />
         <item itemvalue="Jest.Type Coercion for primitives.num13" />
-        <item itemvalue="Jest.Type Coercion for primitives.num12" />
-        <item itemvalue="Jest.Type Coercion for primitives.num11" />
       </list>
     </recent_temporary>
   </component>
