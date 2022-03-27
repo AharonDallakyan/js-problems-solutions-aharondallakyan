@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a29d004-c230-4282-af7c-b7cd65140972" name="Changes" comment="" />
+    <list default="true" id="1a29d004-c230-4282-af7c-b7cd65140972" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +47,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Jest.insertion sort">
@@ -128,17 +131,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Jest.testing jest" />
       <item itemvalue="Jest.Type Coercion for primitives.num13" />
       <item itemvalue="Jest.Type Coercion for primitives.num14" />
       <item itemvalue="Jest.Type Coercion for primitives.num3" />
       <item itemvalue="Jest.insertion sort" />
       <item itemvalue="Jest.insertion sort.insertion sort" />
-      <item itemvalue="Jest.testing jest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.insertion sort" />
         <item itemvalue="Jest.insertion sort.insertion sort" />
+        <item itemvalue="Jest.insertion sort" />
         <item itemvalue="Jest.Type Coercion for primitives.num3" />
         <item itemvalue="Jest.Type Coercion for primitives.num14" />
         <item itemvalue="Jest.Type Coercion for primitives.num13" />
@@ -182,5 +185,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
