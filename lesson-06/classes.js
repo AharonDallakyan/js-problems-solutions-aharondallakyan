@@ -1,19 +1,21 @@
+//homework 1
+
 class Author{
-    set setName(name){
-        this.name = name;
-    }
+    // set setName(name){
+    //     this.name = name;
+    // }
     get getName(){
         return this.name = name;
     }
-    set setEmail(email){
-        this.email = email;
-    }
+    // set setEmail(email){
+    //     this.email = email;
+    // }
     get getEmail(){
         return this.getEmail = getEmail;
     }
-    set setGender(gender){
-        this.gender = gender;
-    }
+    // set setGender(gender){
+    //     this.gender = gender;
+    // }
     get getGender(){
         return this.getGender = getGender;
     }
@@ -25,6 +27,7 @@ class Author{
         console.log(a + ' type:' + typeof a)
     }
 }
+
 let author = new Author()
 author.name = 'pushkin'
 console.log(author.name)
@@ -34,31 +37,31 @@ console.log(author1.name)
 author.myToString(5)
 let author2 = new Author()
 author2.name = 'raffi'
-author2.emial = 'maili'
+author2.emial = 'mail@gmail.com'
 console.log(author2)
 
 class Book{
-    set setTitle(title){
-        this.title = title;
-    }
+    // set setTitle(title){
+    //     this.title = title;
+    // }
     get getTitle(){
         return this.title = title;
     }
-    set setPrice(price){
-        this.price = price;
-    }
+    // set setPrice(price){
+    //     this.price = price;
+    // }
     get getPrice(){
         return this.price = price;
     }
-    set setQuantity(quantity){
-        this.quantity = quantity;
-    }
+    // set setQuantity(quantity){
+    //     this.quantity = quantity;
+    // }
     get getQuantity(){
         return this.quantity = quantity;
     }
-    set setAuthor(author){
-        this.author = author;
-    }
+    // set setAuthor(author){
+    //     this.author = author;
+    // }
     get getAuthor(){
         return this.author = new Author();
     }
@@ -87,3 +90,53 @@ book2.quantity=3;
 console.log(book1);
 let myProfit2 = book2.getProfit(book2.price,book2.quantity)
 console.log(myProfit2)
+
+//homework 2
+
+class Account{
+    get getId(){
+        return this.id = id;
+    }
+
+    set setName(name){
+        this.name = name;
+    }
+    get getName(){
+        return this.name = name;
+    }
+    set setBalance(balance){
+        this.balance = balance;
+    }
+    get getBalance(){
+        return this.balance = balance;
+    }
+    credit(amount){
+        this.balance += amount
+        return  this.balance
+    }
+    debit(amount){
+        if(this.balance < amount){
+            console.log("Amount exceeded balance")
+        }else{
+            this.balance -= amount
+            return this.balance
+        }
+    }
+    transferTo(anotherAccount, amount){
+        if(this.balance <amount){
+            console.log("Amount exceeded balance")
+        }else{
+             this.balance -= amount
+            anotherAccount = new Account()
+            anotherAccount.balance += amount
+        }
+    }
+    static identifyAccounts(accountFirst, accountSecond){
+      if(accountFirst.id === accountSecond.id){
+
+      }
+    }
+}
+
+let first = new Account()
+console.log(first.name)

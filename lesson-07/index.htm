@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="Container">
+    <h1 class="title">Homework 1</h1>
+    <div class="timeBlock">
+      <button id="myBtn">Show Time</button>
+      <p id="demo"></p>
+    </div>  
+  </div>
+  <div class="inputBlock">
+    <h1>Homework 2</h1>
+    <div class="text">
+      <input id="input" type="text">
+      <button onclick="myFunction()">add text</button>
+      <p id="inputText"></p>
+    </div>
+</div>
+
+<h1>Homework 4</h1>
+<div class="container">
+    <input id="inputField" type="text"><button id="addToDo">+</button>
+    <div class="to-dos" id="toDoContainer">
+    </div>
+</div>
+
+  <script>
+    
+  document.getElementById("myBtn").addEventListener("click", displayDate);
+  
+  function displayDate() {
+    document.getElementById("demo").innerHTML =new Date();
+  }
+
+  function myFunction() {
+  let text = document.getElementById("input").value;
+  document.getElementById("inputText").innerHTML = text;
+}
+
+
+//-------ToDo list Homework 4
+
+let addToDoButton = document.getElementById('addToDo');
+let toDoContainer = document.getElementById('toDoContainer');
+let inputField = document.getElementById('inputField');
+
+addToDoButton.addEventListener('click', function(){
+    var paragraph = document.createElement('p');
+    paragraph.classList.add('paragraph-styling');
+    paragraph.innerText = inputField.value;
+    toDoContainer.appendChild(paragraph);
+    inputField.value = "";
+    paragraph.addEventListener('click', function(){
+        paragraph.style.textDecoration = "line-through";
+    })
+    paragraph.addEventListener('dblclick', function(){
+        toDoContainer.removeChild(paragraph);
+    })
+})
+ </script>
+ 
+</body>
+</html>

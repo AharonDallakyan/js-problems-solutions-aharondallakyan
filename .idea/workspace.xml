@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d8271d-d3e4-47fc-b1a3-546e05b75ce4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson-06/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson-06/classes.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson-06/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson-06/classes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +46,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.object-json.zipArr">
-    <configuration name="desc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/lesson-05/object_Json.text.js" />
-      <test-names>
-        <test-name value="desc" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.classes.js">
     <configuration name="desc.1. " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -101,6 +88,9 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="classes.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson-06/classes.js" working-dir="$PROJECT_DIR$/lesson-06">
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -112,19 +102,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.desc" />
       <item itemvalue="Jest.desc.1. " />
       <item itemvalue="Jest.object-json (1)" />
       <item itemvalue="Jest.object-json.zipArr" />
       <item itemvalue="npm.test" />
+      <item itemvalue="Node.js.classes.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.classes.js" />
         <item itemvalue="Jest.object-json.zipArr" />
         <item itemvalue="Jest.object-json (1)" />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.desc.1. " />
-        <item itemvalue="Jest.desc" />
       </list>
     </recent_temporary>
   </component>
